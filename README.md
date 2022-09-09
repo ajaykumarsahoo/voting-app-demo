@@ -1,7 +1,7 @@
 Voting App Demo by Ajay Kumar
 =============================
 
-A simple distributed application running across multiple Docker containers.
+A simple distributed application running across multiple Docker containers and Docker Compose in AWS Cloud..
 
 Getting started
 ---------------
