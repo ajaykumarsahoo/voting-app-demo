@@ -70,7 +70,7 @@ Requirements:
 -node js
 -Enable ports under SG i.e 5000,5001 and 80.
 
-=====================
+
 Login to AWS Account:
 ======================
 
@@ -230,7 +230,7 @@ services:
   image: worker
   
 
-====================================
+
 #Install docker compose on Ubuntu: #
 ====================================
 #Download and install docker-compose:
