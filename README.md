@@ -180,11 +180,11 @@ e) $docker run -d --name=db -e POSTGRES_USER=postgres -e POSTGRES_PASSWORD=postg
 
 build image first (cutome)
 
-h)$docker build -t worker .
+h)$docker build -t worker-app .
 
 i)$docker images
 
-j)$docker run -d --name=worker --link redis:redis --link db:db worker
+j)$docker run -d --name=worker --link redis:redis --link db:db worker-app
 
 5. create image and run result app(node js).
 
@@ -227,7 +227,7 @@ services:
   ports:
    - 5001:80
  worker:
-  image: worker
+  image: worker-app
   
 
 
