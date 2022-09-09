@@ -255,20 +255,17 @@ $docker-compose up
 
 
 ************************************************************************************************************************************
-
-
 #Need to login to dockerhub as images are stored in my public repo:
 
-$docker login
-un:ajaykumar143
-pwd:xxxxxxxxxxxxxx
+Docker hub link to pull images: https://hub.docker.com/repository/docker/ajaykumar143/example-voting-app
+
 
 Push all Images to docker hub:public
 
 Docker hub login:
 
 $docker login
-us:ajaykumar143
+username:xxxxxx
 pwd:xxxxxxxxxxx
 
 $docker images ls
